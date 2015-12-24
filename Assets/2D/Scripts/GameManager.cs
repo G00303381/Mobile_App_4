@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
     public GUIText HighScoreText;
 
     private Score score;
-    private Score highScore;
 
     void Awake()
     {
@@ -29,7 +28,6 @@ public class GameManager : MonoBehaviour
         }
 
         score = GameObject.Find("Score").GetComponent<Score>();
-        highScore = GameObject.Find("Highscore").GetComponent<Score>();
 
         Initialize();
     }

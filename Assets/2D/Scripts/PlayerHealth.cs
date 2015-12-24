@@ -23,12 +23,6 @@ public class PlayerHealth : MonoBehaviour
 		//playerControl = GetComponent<PlayerControl>();
 		healthBar = GameObject.Find("HealthBar").GetComponent<SpriteRenderer>();
 		healthScale = healthBar.transform.localScale;
-
-        camShake = GameManager.gm.GetComponent<CameraShake>();
-        if (camShake == null)
-        {
-            Debug.LogError("No camera shake script found on gm object!");
-        }
     }
 
 
@@ -36,14 +30,12 @@ public class PlayerHealth : MonoBehaviour
 	{
 		if(col.gameObject.tag == "Enemy")
 		{
-			if (Time.time > lastHitTime + repeatDamagePeriod) 
+            if (Time.time > lastHitTime + repeatDamagePeriod) 
 			{
 				if(health > 0f)
 				{
 					TakeDamage(col.transform); 
 					lastHitTime = Time.time;
-                    camShake.shake(camShakeAmnt, camShakeLng);
-
                 }
 
 				else

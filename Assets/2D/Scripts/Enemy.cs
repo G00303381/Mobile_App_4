@@ -15,13 +15,11 @@ public class Enemy : MonoBehaviour
     private Transform frontCheck;
     private bool dead = false;
     private Score score;
-    private Score highScore;
 
     void Awake()
     {
         frontCheck = transform.Find("frontCheck").transform;
         score = GameObject.Find("Score").GetComponent<Score>();
-        highScore = GameObject.Find("Highscore").GetComponent<Score>();
     }
 
     void FixedUpdate()
@@ -59,10 +57,7 @@ public class Enemy : MonoBehaviour
     {
         // Increase the score by 100 points
         score.score += 100;
-        if (score.highScore < score.score)
-        {
-            score.highScore = score.score;
-        }
+
         // Set dead to true.
         dead = true;
 

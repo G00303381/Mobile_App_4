@@ -5,9 +5,9 @@ public class Score : MonoBehaviour {
 
     public int score = 0;
 
-    public int highScore;
+    public int currScore = 0;
 
-    private string highScoreKey = "highScore";
+    private string newScore = "Score";
 
     private PlayerHealth player;
     //private int prevScore = 0;
@@ -21,14 +21,9 @@ public class Score : MonoBehaviour {
 	void Update ()
     {
         GetComponent<GUIText>().text = "Score: " + score;
+        currScore = score;
+        PlayerPrefs.SetInt(newScore, currScore);
+        //Debug.Log("Current Score: " + currScore);
 
-        if(highScore < score)
-        {
-            highScore = score;
-            GetComponent<GUIText>().text = "HighScore: " + highScore;
-            PlayerPrefs.SetInt(highScoreKey, highScore);
-            PlayerPrefs.Save();
-        }
-        //prevScore = score;
 	}
 }
