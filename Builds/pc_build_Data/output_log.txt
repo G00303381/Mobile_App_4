@@ -1,0 +1,75 @@
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0xf31)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  1.092 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Dan\Desktop\Mobile_App_4-master\Mobile_App_4-master\Builds\pc_build_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: ec8 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.955838 ms
+Scanning - Process took 31 ms to complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 655.
+Total: 2.848460 ms (FindLiveObjects: 0.110119 ms CreateObjectMapping: 0.051042 ms MarkObjects: 2.603172 ms  DeleteObjects: 0.043480 ms)
+
+We hit enemy1(Clone) and did 1 damage!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+We hit enemy1(Clone) and did 1 damage!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+We hit enemy1(Clone) and did 1 damage!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+We hit enemy1(Clone) and did 1 damage!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+We hit enemy1(Clone) and did 1 damage!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.066147 ms
+Scanning - Process took 10 ms to complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 684.
+Total: 2.904701 ms (FindLiveObjects: 0.109647 ms CreateObjectMapping: 0.028356 ms MarkObjects: 2.748265 ms  DeleteObjects: 0.017014 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.889577 ms
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 420.
+Total: 2.497778 ms (FindLiveObjects: 0.195663 ms CreateObjectMapping: 0.033555 ms MarkObjects: 2.156076 ms  DeleteObjects: 0.109647 ms)
+

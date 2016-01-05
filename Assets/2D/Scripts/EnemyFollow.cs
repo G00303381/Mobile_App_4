@@ -42,7 +42,11 @@ public class EnemyFollow : MonoBehaviour
         }
 
         //ren.enabled = true;
-        score.score += 100;
+        // Increase the score by 100 points
+        int score = PlayerPrefs.GetInt("Score");
+        score += 100;
+        PlayerPrefs.SetInt("Score", score);
+
         dead = true;
         GameManager.KillEnemy(this);
         //Destroy(gameObject, 0.2f);

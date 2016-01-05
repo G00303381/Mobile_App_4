@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public GUIText ReplayText;
     public GUIText MainMenuText;
     public GUIText HighScoreText;
+    public GUIText LeaderboardText;
 
     private Score score;
 
@@ -37,9 +38,10 @@ public class GameManager : MonoBehaviour
         if (gameOver == true)
         {
             GameOverText.text = "GAME OVER";            //Show GUI GameOver
-            FinalScoreText.text = "FINAL SCORE: " + score.score;           //Show GUI FinalScore
+            FinalScoreText.text = "FINAL SCORE: " + PlayerPrefs.GetInt("Score").ToString();           //Show GUI FinalScore
             ReplayText.text = "PRESS R TO REPLAY";      //Show GUI Replay
             MainMenuText.text = "PRESS M TO RETURN TO MENU";
+            LeaderboardText.text = "PRESS L TO SUBMIT YOUR SCORE";
 
             if (Input.GetKeyDown(KeyCode.R))
             {
@@ -49,6 +51,11 @@ public class GameManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.M))
             {
                 Application.LoadLevel("Main_Menu");
+            }
+
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                Application.LoadLevel("Main_Leaderboard");
             }
 
         }

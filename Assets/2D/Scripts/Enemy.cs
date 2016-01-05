@@ -56,7 +56,9 @@ public class Enemy : MonoBehaviour
     void Death()
     {
         // Increase the score by 100 points
-        score.score += 100;
+        int score = PlayerPrefs.GetInt("Score");
+        score += 100;
+        PlayerPrefs.SetInt("Score", score);
 
         // Set dead to true.
         dead = true;
